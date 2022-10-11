@@ -79,9 +79,7 @@
         }
 
         .focusing {
-            /* text-transform: up
-            
-            ase; */
+            /* text-transform: uppercase; */
             font-size: 0.5em;
         }
 
@@ -179,13 +177,15 @@
         <main>
             <p><span class="dropcap">Sudah berapa hari ya?</span> atau bahkan bulan?, aku tidak tahu, apakah Erik akan
                 cepat mengantarkan tas ini atau bahkan dia lupa? seperti karpet yang kutitipkan padanya waktu itu,
-                padahal aku terus meminta kabar darinya saat itu untuk segera ke Makassar menemuimu. Kali ini tidak akan
+                Setiap hari menelpon meminta kabar darinya saat itu untuk segera ke Makassar menemuimu. Kali ini tidak
+                akan
                 aku paksa Erik ataupun sekedar menanyakan titipan ini, biarlah Erik yang menentukan.</p>
 
             <p>Tentang tas ini, tidak ada maksud apa-apa selain memberikan kejutan-kejutan kecil untukmu. Sore itu,
                 sepulang kerja, aku dan mas Apip melanjutkan perjalanan menuju JNM Bloc setelah ponselku bergetar oleh
                 pesan masuk dari Erik yang berisi "JNM anak2", pesan ini langsung aku kirimkan padamu juga, sekedar
-                menginformasikan bahwa aku tidak menunggu kabarmu dari rumah tapi dari JNM. Di sana kami duduk di depan
+                menginformasikan bahwa aku tidak pulang ke rumah menunggu kabarmu dari rumah tapi dari JNM. Di sana kami
+                duduk di depan
                 kedai COLDHEART, kedai tempatmu
                 memesan Mocktail, minuman yang membuatmu penasaran dan pada akhirnya membuatmu geli akan rasanya,
                 sembari kami mengobrol santai mataku tertuju ke arah toko persis
@@ -200,10 +200,32 @@
                 menghela nafas dan tersenyum.</p>
 
             <p>Rencananya, kejutan-kejutan kecil ini akan terus aku lakukan tanpa batas ruang dan waktu tapi saat ini
-                kamu memilih untuk menghentikan waktu, katamu "untuk sekarang, kita jalan masing-masing dulu", ada harapan dalam
-                kalimat tersebut, hmm atau itu hanya kalimat penenang?</p>
+                kamu memilih untuk menghentikan waktu, katamu "untuk sekarang, kita jalan masing-masing dulu", ada
+                harapan dalam
+                kalimat tersebut, hmm atau itu hanya kalimat penenang?, kalau kata Banda Neira <i>Yang Patah Tumbuh,
+                    Yang Hilang Berganti</i> semoga kamu ada pada bagian patah dan akan tumbuh bukan pada hilang
+                kemudian terganti.</p>
+
+            <p></p>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/track/1SKPmfSYaPsETbRHaiA18G?utm_source=generator&theme=0"
+                width="100%" height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+            <!-- <div id="embed-iframe"></div> -->
         </main>
     </article>
+    <script>
+        window.onSpotifyIframeApiReady = (IFrameAPI) => {
+            let element = document.getElementById('embed-iframe');
+            let options = {
+                uri: 'spotify:episode:7makk4oTQel546B0PZlDM5'
+            };
+            let callback = (EmbedController) => { };
+            IFrameAPI.createController(element, options, callback);
+        };
+    </script>
+    <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script>
 </body>
 
 </html>
